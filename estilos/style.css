@@ -18,7 +18,7 @@ main {
 section#login {
     background-color: white;
     width: 250px;
-    height: 550px;
+    height: 530px;
 
     position: absolute;
     top: 50%;
@@ -27,7 +27,9 @@ section#login {
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #000000bd; 
-    
+
+    transition-timing-function: ease;
+    transition: width .5s, height .5s;
 }
 
 section#login > div > h1 {
@@ -61,12 +63,13 @@ div.campo {
     background-color: #0f3c42;
     margin: 3px;
     border-radius: 5px;
-    width: 100%;
+    width: 220px;
     padding: 2px;
 }
 
 input {
-    width: 81%;
+    background-color: #8be9ec9f;
+    width: 177px;
     border-radius: 5px;
     border: none;
     padding-top: 12px;
@@ -74,22 +77,28 @@ input {
 }
 
 #entrar {
-    width: 100%;
+    width: 97%;
     padding: 10px;
     border-radius: 5px;
     background-color: #16868a;
     border: none;
     margin: 3px;
     color: white;
+    cursor: pointer;
 }
 
 div#senha-esquecida {
     border: 1px solid #0f3c42;
     border-radius: 5px;
-    width: 95%;
     margin: 3px;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
+}
+
+div#senha-esquecida:hover {
+    cursor: pointer;
+    background-color: #61abb4;
+   
 }
 
 a {
