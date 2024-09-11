@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    background-color: #0f3c42;
+   
+}
+
+main {
+    position: relative;
+    width: 98vw;
+    height: 98vh;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 550px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #000000bd; 
+    
+}
+
+section#login > div > h1 {
+    text-align: center;
+    margin: 2px;
+}
+
+section > div#imagem {
+    background: url(../imagens/pexels-therato-1933319.jpg) no-repeat;
+    background-size: cover;
+    display: block;  
+    height: 24vh;
+}
+
+section > div#formulario {
+    display: block;
+    padding: 10px; 
+}
+
+section > div > p {
+    font-size: 0.8em;
+    margin: 2px;
+}
+
+span {
+    color: white;
+    padding: 5px;
+}
+
+div.campo {
+    background-color: #0f3c42;
+    margin: 3px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2px;
+}
+
+input {
+    width: 81%;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    
+}
+
+#entrar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #16868a;
+    border: none;
+    margin: 3px;
+    color: white;
+}
+
+div#senha-esquecida {
+    border: 1px solid #0f3c42;
+    border-radius: 5px;
+    width: 95%;
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0f3c42;
+
+}
+
+#mail {
+    color: #0f3c42;
+}
